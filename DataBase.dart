@@ -1,4 +1,3 @@
-import '../../product.dart';
 
 class DataBase{
   List <Map<String,dynamic>>products=[

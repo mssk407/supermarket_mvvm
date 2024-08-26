@@ -15,12 +15,12 @@ class DataBase{
   
   static DataBase  get instance { 
     if(_instance == null) {
-      synchronized(DataBase) {
-        if(_instance == null) {
+      // synchronized(DataBase) {
+        // if(_instance == null) {
           _instance = DataBase._();
         }
-      }
-    }
+    //   }
+    // }
     return _instance!;
   }
   _connect(){
